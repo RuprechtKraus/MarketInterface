@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market", "Market\Market.csproj", "{72D95D88-DE0C-47C0-9D81-298504E9B261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketLib", "MarketLib\MarketLib.csproj", "{24AD35F3-56FB-49CA-B449-3E7CE80070FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D95D88-DE0C-47C0-9D81-298504E9B261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D95D88-DE0C-47C0-9D81-298504E9B261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D95D88-DE0C-47C0-9D81-298504E9B261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D95D88-DE0C-47C0-9D81-298504E9B261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AD35F3-56FB-49CA-B449-3E7CE80070FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AD35F3-56FB-49CA-B449-3E7CE80070FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AD35F3-56FB-49CA-B449-3E7CE80070FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AD35F3-56FB-49CA-B449-3E7CE80070FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C8729E-ADF9-499E-89A3-7D166DB0988B}
+	EndGlobalSection
+EndGlobal
