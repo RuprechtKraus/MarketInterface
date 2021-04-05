@@ -68,7 +68,7 @@ namespace MarketLib
             }
         }
 
-        public void printStock()
+        public void PrintStock()
         {
             if (_stock.Count == 0)
             {
@@ -83,7 +83,7 @@ namespace MarketLib
             }
         }
 
-        public void printEmployees()
+        public void PrintEmployees()
         {
             if (_employees.Count == 0)
             {
