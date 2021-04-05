@@ -6,7 +6,7 @@ namespace MarketLib
     public class SuperMarket : IMarket
     {
         int _budget;
-        float _markup = 0.2f; //Наценка на товар
+        float _markup = 0.2f; //Наценка на товар 
         List<Item> _stock = new();
         List<Employee> _employees = new();
 
