@@ -8,11 +8,15 @@ namespace Market
         static void Main(string[] args)
         {
             SuperMarket market = new SuperMarket(10000);
-            Random rand = new();
-            Item apple = new("Apple", 10, rand.Next(1, int.MaxValue));
-            Item tv = new("Plasma screen", 1000, rand.Next(1, int.MaxValue));
-            Employee jane = new("Jane", rand.Next(1, int.MaxValue));
-            Employee bob = new("Bob", rand.Next(1, int.MaxValue));
+            Random rand = new Random();
+            Item apple = new Item("Apple", 10, rand.Next(1, int.MaxValue));
+            Item tv = new Item("Plasma screen", 1000, rand.Next(1, int.MaxValue));
+            Employee jane = new Employee("Jane", rand.Next(1, int.MaxValue));
+            Employee bob = new Employee("Bob", rand.Next(1, int.MaxValue));
+
+            jane.SayHello();
+            bob.SayHello();
+            Console.WriteLine();
 
             market.Buy(apple);
             market.Buy(apple);
@@ -25,7 +29,7 @@ namespace Market
             Console.WriteLine();
             Console.WriteLine("Market stock:");
             Console.WriteLine();
-            market.printStock();
+            market.PrintStock();
             Console.WriteLine("-------------");
             Console.WriteLine();
 
@@ -38,7 +42,7 @@ namespace Market
 
             Console.WriteLine($"Market budget after selling: {market.Budget}");
             Console.Write("Market stock: ");
-            market.printStock();
+            market.PrintStock();
         }
     }
 }
